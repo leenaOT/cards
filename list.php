@@ -23,7 +23,7 @@ if($_SESSION['username'] == 'username') {
  echo "0 results";
  }
 print("<br><br>");
- HEAD
+
  print("Insert new");
  print("<form action=\"save.php\" method=\"post\">");
 print("<br>");
@@ -49,7 +49,7 @@ print("<br>");
  print("<input type=\"submit\" name=\"submit\" value=\"Save\" >");
  print("</form>");
 
- delete
+
 
  print("</html>");
  mysqli_close($conn);
